@@ -1,3 +1,11 @@
+/**
+ * @author lightlist.io
+ * @see <a href="https://www.lightlist.io" target="_blank">https://www.lightlist.io</a>
+ * @see <a href="https://github.com/lightlistio/shiftUI" target="_blank">https://github.com/lightlistio/shiftUI</a>
+ * @see <a href="https://lightlistio.github.io" target="_blank">https://lightlistio.github.io</a>
+ */
+
+
 // Use this function to respond to a successful shift
 function onShiftComplete(response) {
 	$('#shift-info').hide();
