@@ -1,0 +1,97 @@
+.shiftui {
+  width: 125px;
+  height: 200px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#pubqrcode {
+    width:125px;
+    height:125px;
+}
+
+#wait-fade {
+    width:125px;
+    min-height: 25px;
+    clear: both;
+    }
+
+#shift-info {
+    border-radius: 4px;
+    padding-top:2px;
+    width:125px;
+    min-height: 25px;
+    clear: both;
+    display: none;
+}
+
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+} 
+
+.fade {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 6s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+
+.coin-div:hover{
+  width: 50px;
+  height: 50px;
+}
+.coin-div {
+  float:left;
+  width:25px;
+  height:25px;
+}
+.coin-img {
+  max-width:100%;
+  max-height:100%;
+  cursor: pointer;
+  cursor: hand;
+}
